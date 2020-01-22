@@ -76,8 +76,8 @@ function e(screen,lines){
 if (lines.life==1){n--;lines.life=0;}
 strokeWeight(5)
 if (n>1){
-if (Math.abs(lst.x-lines.x)<5){}else{
-if (Math.abs(lst.y-lines.y)<5){}else{line(lines.x,lines.y,lines.x,lines.y)}}
+if (Math.abs(lst.x-lines.x)<25){}else{
+if (Math.abs(lst.y-lines.y)<25){}else{line(lines.x,lines.y,lines.x,lines.y)}}
 if (Math.abs(lst.x-lines.x)<30){
 if (Math.abs(lst.y-lines.y)<30){
 if (n>1){line(lst.x,lst.y,lines.x,lines.y)}}}}
